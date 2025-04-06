@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            
+        }
+        form {
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 95%;
+            height: 40px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        textarea {
+            height: 100px;
+        }
+        button[type="submit"] {
+            width: 100%;
+            height: 40px;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        button[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+  .navbar {
+			background-color:gray;
+			padding: 10px;
+			text-align: center;
+  	  color:black;
+  	}
+   .navbar a {
+			color: #fff;
+			padding: 10px;
+			text-decoration: none;
+		
+		}
+.footer{
+    background-color:gray;
+    text-align:center;
+    font-size:15px;
+}
+    </style>
+</head>
+<body>
+  	<div class="navbar">
+		<a href="web.html">Home</a>
+		<a href="Login.html">Login</a>
+		 <a href="order.html">Order here</a>
+		<a href="contact.html">Contact</a>
+	</div>
+    <h2>Contact Us</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+    <div class="footer">&copy;Copyright 2024 Alrights Reserved CRT Creator by Toph</div>
+</body>
+</html>
